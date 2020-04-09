@@ -45,6 +45,12 @@ public class ProductoController {
 		 * 
 		 * if (!ok) { throw new Exception("No es posible cargar el producto"); }
 		 */
+		
+		/*
+		 * try { Thread.sleep(2000L); } catch (InterruptedException e) {
+		 * e.printStackTrace(); }
+		 */
+		
 		return producto;
 	}
 }
