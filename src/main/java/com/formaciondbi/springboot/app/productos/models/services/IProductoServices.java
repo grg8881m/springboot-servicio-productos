@@ -7,4 +7,6 @@ import com.formaciondbi.springboot.app.productos.models.entity.Producto;
 public interface IProductoServices {
 	List<Producto> findAll();
 	Producto findId(Long id);
+	Producto save(Producto producto);
+	void deleteForId(Long id);
 }
