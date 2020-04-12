@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.formaciondbi.springboot.app.commons.models.entity.Producto;
 import com.formaciondbi.springboot.app.productos.models.daos.ProductoDao;
-import com.formaciondbi.springboot.app.productos.models.entity.Producto;
 
 @Service
 public class ProductoServicesImpl implements IProductoServices {
